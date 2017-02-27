@@ -1,6 +1,11 @@
+*{
+  box-sizing: border-box;
+}
+
 .container {
   margin: 20px 10px auto;
-  height:1000px;
+  height:1600px;
+  width:auto;
 }
 
 .header {
@@ -27,6 +32,10 @@
   height: 150px;
   width: 150px;
   background-color: yellow;
+}
+
+.square:hover{
+  background-color: orange;
 }
 
 .footer {
